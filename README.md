@@ -1,6 +1,6 @@
 # docker-win-netbox
 
-Docker で NetBox を構築
+Docker で NetBox を構築する
 
 ## 環境
 
