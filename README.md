@@ -19,6 +19,13 @@ $ cd netbox-docker
 $ mv docker-compose.override.yml.example docker-compose.override.yml
 # ビルド
 $ docker-compose up -d
+
+# アカウント作成
+$ docker exec -it netbox-docker-netbox-1 bash
+$ python3  manage.py createsuperuser
+:Username (leave blank to use 'unit'):
+:Password:
+:Password (again):
 ```
 
 ## 接続 URL
